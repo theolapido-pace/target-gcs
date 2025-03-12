@@ -9,7 +9,7 @@ from target_gcs.sinks import GCSSink
 class TargetGCS(Target):
     """Sample target for GCS."""
 
-    name = "target-gcs"
+    name = "target-gcs-pace"
     config_jsonschema = th.PropertiesList(
         th.Property("credentials_file", th.StringType, required=False),
         th.Property("bucket_name", th.StringType, required=True),

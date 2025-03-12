@@ -41,7 +41,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 # CLI declaration
-target-gcs = 'target_gcs.target:TargetGCS.cli'
+target-gcs-pace = 'target_gcs.target:TargetGCS.cli'
 
 
 
